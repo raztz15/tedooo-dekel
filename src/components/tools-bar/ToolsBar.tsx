@@ -17,7 +17,7 @@ export const ToolsBar = ({ inputValue, handleChange }: IToolsBar) => {
             <div className='tools-bar--search'>
                 <img width='40px' src={tedoooIcon} alt='Tedooo icon' />
                 <TextField
-                    placeholder="Search"
+                    placeholder="Search By Username..."
                     size="small"
                     value={inputValue}
                     onChange={handleChange}
