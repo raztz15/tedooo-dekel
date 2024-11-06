@@ -1,0 +1,102 @@
+.post--container {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 7px 0px #282f2d12;
+  font-family: "DM Sans", sans-serif;
+}
+
+.user-details {
+  display: flex;
+  padding: 24px;
+  gap: 10px;
+}
+
+.user-details img {
+  border-radius: 100%;
+}
+
+.username {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.shop-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2979ca;
+}
+
+.shop-name span {
+  color: #6f95b4;
+  font-weight: 500;
+}
+
+.post-text {
+  padding: 0 24px 16px 24px;
+  font-size: 14px;
+}
+
+.post-images {
+  max-height: 517px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 8px;
+  background-color: #b8c248;
+}
+
+.post-images img {
+  min-width: 547px;
+  height: auto;
+}
+
+.post--footer {
+  padding: 16px 24px;
+  color: #737877;
+}
+
+.post-impressions {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e9eaea;
+  padding-bottom: 15px;
+}
+
+.post-likes {
+  display: flex;
+  gap: 8px;
+}
+
+.post-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0 0 0;
+}
+
+.post-buttons div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.post-buttons div button,
+.post-buttons div img {
+  cursor: pointer;
+}
+
+.post-buttons button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #484e4c;
+}
+
+.like-button.active button {
+  color: #0a66c2;
+}
+
+.like-button.active img {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(96%) saturate(631%)
+    hue-rotate(168deg) brightness(94%) contrast(100%);
+}
